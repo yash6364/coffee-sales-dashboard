@@ -1,20 +1,50 @@
-# Coffee Sales Analysis
+☕ Coffee Sales Dashboard
 
-This project analyzes a coffee shop’s sales data to understand customer buying patterns and product performance.
+This project helps visualize and understand sales trends of a coffee shop using Excel.
+It includes charts and KPIs that show how sales vary by month, category, and region.
 
-## Tools Used
-- **Excel** for data cleaning and dashboard creation
-- **Oracle SQL Developer** for data querying and analysis
+📊 Tools Used
 
-## Files
-- `Coffee_Shop_Sales.xlsx` → Contains cleaned data and dashboard
-- `coffee_sales_analysis.sql` → SQL queries used for analysis
+Microsoft Excel — For data cleaning, analysis, and dashboard creation
 
-## Key Insights
-- Brewed coffee and espresso have the highest sales
-- Most sales occur during morning hours
-- Regular and Large sizes are the most preferred
-- Astoria, Hell’s Kitchen, and Lower Manhattan show balanced sales performance
+Pivot Tables & Charts — To summarize and visualize the data
 
-## Project Outcome
-The dashboard helps visualize top-performing products, busiest sales hours, and popular locations — enabling better decision-making for inventory and promotions.
+Power Query — For data transformation and consistency checks
+
+⚙️ Steps Followed
+
+Cleaned raw data and fixed inconsistent values.
+
+Created calculated columns like Month, Category, and Age Group.
+
+Used pivot tables to find:
+
+Monthly sales trend
+
+Top selling coffee types
+
+Region-wise performance
+
+Customer distribution
+
+Designed an interactive dashboard for quick insights.
+
+🧠 Insights
+
+Most Sales: During morning hours and weekends.
+
+Top Category: Cappuccino and Latte performed the best.
+
+Customer Trend: Majority purchases made by customers aged 25–35.
+
+📁 Files Included
+
+Coffee_Sales_Dashboard.xlsx — Excel file with cleaned data and dashboard
+
+coffee_sales_analysis.sql — SQL queries for analysis
+
+README.md — Project documentation
+
+💡 Project Goal
+
+To analyze coffee shop sales data, identify top-performing products and time periods, and present results through an interactive Excel dashboard.
